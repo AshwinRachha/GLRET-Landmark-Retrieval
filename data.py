@@ -19,3 +19,27 @@ class LandmarkDataset(Dataset):
             img = self.transforms(image=img)["image"]
             
         return img, label
+def data_transforms():
+    data_transforms = {
+        "train": A.Compose([
+            A.Resize(CONFIG['img_size'], CONFIG['img_size']),
+            A.HorizontalFlip(p=0.5),
+            A.CoarseDropout(p=0.5),
+            A.Normalize(
+                    mean=[0.485, 0.456, 0.406], 
+                    std=[0.229, 0.224, 0.225], 
+                    max_pixel_value=255.0, 
+                    p=1.0
+                ),
+            ToTensorV2()], p=1.),
+
+        "valid": A.Compose([
+            A.Resize(CONFIG['img_size'], CONFIG['img_size']),
+            A.Normalize(
+                    mean=[0.485, 0.456, 0.406], 
+                    std=[0.229, 0.224, 0.225], 
+                    max_pixel_value=255.0, 
+                    p=1.0
+                ),
+            ToTensorV2()], p=1.)}
+    return data_transforms
