@@ -7,7 +7,7 @@ In this competition, the developed models are expected to retrieve relevant data
 
 
 <p align="center">
-  <img src="https://paperswithcode.com/media/datasets/Google_Landmarks_Dataset_v2-0000004608-31bcf8ba.jpg" alt="centered image" class = "center" width="400"/>
+  <img src="https://paperswithcode.com/media/datasets/Google_Landmarks_Dataset_v2-0000004608-31bcf8ba.jpg" alt="centered image" class = "center" width="600"/>
 </p>
 
 ```
