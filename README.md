@@ -10,5 +10,8 @@ In this competition, the developed models are expected to retrieve relevant data
   <img src="https://paperswithcode.com/media/datasets/Google_Landmarks_Dataset_v2-0000004608-31bcf8ba.jpg" alt="centered image" class = "center" width="400"/>
 </p>
 
-<iframe src="https://www.kaggle.com/embed/debarshichanda/pytorch-w-b-glret-2021?cellIds=5&kernelSessionId=74146258" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="[Pytorch + W&amp;B] 
-<iframe src="https://www.kaggle.com/embed/debarshichanda/pytorch-w-b-glret-2021?cellIds=7&kernelSessionId=74146258" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="[Pytorch + W&amp;B] GLRet 2021"></iframe>
+'''
+#### Required Installments
+!pip install git+https://github.com/rwightman/pytorch-image-models
+Pytorch
+'''
